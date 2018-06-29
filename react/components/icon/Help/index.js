@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import config from 'vtex-tachyons/config.json'
 import { calcIconSize } from '../utils'
 
 const iconBase = {
@@ -57,7 +56,7 @@ class Help extends PureComponent {
 }
 
 Help.defaultProps = {
-  color: config.colors['serious-black'],
+  color: 'currentColor',
   size: 16,
   solid: false,
 }
